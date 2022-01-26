@@ -5,9 +5,7 @@ import java.util.Scanner;
 public class Gra {
     public static void main(String[] args) {
         zagrajl();
-
     }
-
     public static void zagrajl() {
         int wybórGry;
         Scanner s = new Scanner(System.in);

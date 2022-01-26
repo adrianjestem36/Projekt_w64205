@@ -34,16 +34,16 @@ public class GraZKomputerem {
                     System.out.println("-----------------------");
                     System.out.println("Przegrales runde :)");
                     System.out.println("-----------------------");
-                    System.out.println(" ");
-                    System.out.println(" ");
+                    System.out.println();
+                    System.out.println();
                     punkty_komputera++;
                 } else if (Wybor_komputera == 3) {
                     System.out.println("Komputer wybrał nożyce.");
                     System.out.println("-----------------------");
                     System.out.println("Wygrales runde :)");
                     System.out.println("-----------------------");
-                    System.out.println(" ");
-                    System.out.println(" ");
+                    System.out.println();
+                    System.out.println();
                     punkty_gracza++;
 
                 }
@@ -54,16 +54,16 @@ public class GraZKomputerem {
                     System.out.println("-----------------------");
                     System.out.println("Wygrales runde :)");
                     System.out.println("-----------------------");
-                    System.out.println(" ");
-                    System.out.println(" ");
+                    System.out.println();
+                    System.out.println();
                     punkty_gracza++;
                 } else if (Wybor_komputera == 3) {
                     System.out.println("Komputer wybrał nożyce.");
                     System.out.println("-----------------------");
                     System.out.println("Przegrales runde :)");
                     System.out.println("-----------------------");
-                    System.out.println(" ");
-                    System.out.println(" ");
+                    System.out.println();
+                    System.out.println();
                     punkty_komputera++;
 
                 }
@@ -74,16 +74,16 @@ public class GraZKomputerem {
                     System.out.println("-----------------------");
                     System.out.println("Przegrales runde :(");
                     System.out.println("-----------------------");
-                    System.out.println(" ");
-                    System.out.println(" ");
+                    System.out.println();
+                    System.out.println();
                     punkty_komputera++;
                 } else if (Wybor_komputera == 2) {
                     System.out.println("Komputer wybrał nożyce.");
                     System.out.println("-----------------------");
                     System.out.println("Wygrales runde :)");
                     System.out.println("-----------------------");
-                    System.out.println(" ");
-                    System.out.println(" ");
+                    System.out.println();
+                    System.out.println();
                     punkty_gracza++;
 
                 }
@@ -94,7 +94,7 @@ public class GraZKomputerem {
             if (punkty_komputera == 3) {
                 System.out.println("Przykro mi przegrales");
                 System.out.printf("Punkty komputera: %d Punkty użytkownika: %d ", punkty_komputera, punkty_gracza);
-                System.out.println(" ");
+                System.out.println();
                 System.out.println("Czy chcesz rozpocząć nową grę? --1 Czy chcesz powrócić do menu głównego --2?");
                 int grax;
                 Scanner s1 = new Scanner(System.in);
@@ -117,7 +117,7 @@ public class GraZKomputerem {
             if (punkty_gracza == 3) {
                 System.out.println("Wygrałeś z komputerem");
                 System.out.printf("Punkty komputera: %d Punkty użytkownika: %d ", punkty_komputera, punkty_gracza);
-                System.out.println(" ");
+                System.out.println();
                 System.out.println("Czy chcesz rozpocząć nową grę? --1 Czy chcesz powrócić do menu głównego --2?");
                 int grax;
                 Scanner s1 = new Scanner(System.in);
