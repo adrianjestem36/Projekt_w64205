@@ -101,7 +101,6 @@ public class GrazUzytkownikiem {
                     System.out.println();
                     punkty_gracza++;
                 }
-
             }
             if (punkty_gracza2 == 3) {
                 System.out.println("Gracz 2 wygrał 3 rundy");
@@ -120,11 +119,8 @@ public class GrazUzytkownikiem {
                         break;
                     default:
                         break;
-
                 }
                 break;
-
-
             }
             if (punkty_gracza == 3) {
                 System.out.println("Gracz 1 wygrał 3 rundy");
