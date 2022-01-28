@@ -55,7 +55,6 @@ public class GrazUzytkownikiem {
                     System.out.println();
                     System.out.println();
                     punkty_gracza++;
-
                 }
 
             } else if (wybor_gracza == 2) {
@@ -79,7 +78,6 @@ public class GrazUzytkownikiem {
                     System.out.println();
                     System.out.println();
                     punkty_gracza2++;
-
                 }
 
             } else if (wybor_gracza == 3) {
@@ -102,7 +100,6 @@ public class GrazUzytkownikiem {
                     System.out.println();
                     System.out.println();
                     punkty_gracza++;
-
                 }
 
             }

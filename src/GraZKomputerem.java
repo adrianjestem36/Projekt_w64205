@@ -17,8 +17,8 @@ public class GraZKomputerem {
             System.out.println("***********************");
             int wybor_gracza = 0;
 
-            while (wybor_gracza ==0) {
-               wybor_gracza = pobieranieOdUzytkownika();
+            while (wybor_gracza == 0) {
+                wybor_gracza = pobieranieOdUzytkownika();
             }
             int Wybor_komputera = rand.nextInt(3) + 1; // Wybor random komputera od 1 do 3 (KPN)
 
